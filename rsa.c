@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-
 long modpow(long b, long e, long m) {
     long result = 1;
 
@@ -50,12 +49,6 @@ int main()
 
 
 	char c = getchar();
-	//printf("%d\n",c );
-	//printf("%c\n",c);
-
-	//int message = c;
-
-	//printf("%d\n",message );
 	int encoded;
 
 	while( c!='.')
@@ -69,8 +62,6 @@ int main()
 	 c = getchar();
 	 }
 
-
-	
 	while(encoded != '.')
 	 {
 	 	scanf("%d",&encoded);
@@ -78,20 +69,5 @@ int main()
 		printf("Decoded:%i\n",decoded);
 	 }
 
-	//printf("Modpow: %li\n",modpow(109,29,111) );
-
-	
-	//printf("divided: %f\n", (float)n/e);
-	
-	
-
-
-	
-	
-
-	//int decoded = decode(encoded, p, q ,e);
-	//printf("Decoded:%d\n",decoded);
-
-	
 	return 0;
 }
